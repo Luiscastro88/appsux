@@ -1,0 +1,6 @@
+{
+    "require": {
+        "netflie/whatsapp-cloud-api": "^2.2",
+        "twilio/sdk": "^8.6"
+    }
+}
