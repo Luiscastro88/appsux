@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f0f0;
+}
+
+.app-container {
+  max-width: 400px;
+  margin: auto;
+  height: 100vh;
+  background: #eaeaea;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.header {
+  background: #034694;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.logo-derecha {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.subtitulo {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #555;
+}
+
+.opciones {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  gap: 10px;
+}
+
+.opcion {
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  width: 45%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  cursor: pointer;
+}
+
+.opcion input {
+  display: none;
+}
+
+.opcion img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.opcion p {
+  font-size: 14px;
+  color: #333;
+}
+
+.btn-enviar {
+  background: #00aaff;
+  color: white;
+  border: none;
+  padding: 15px;
+  width: 80%;
+  margin: 0 auto 15px;
+  display: block;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-enviar:hover {
+  background: #007acc;
+}
+
+.volver {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+  .opcion {
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .opcion.selected {
+    border-color: #007bff;
+    background-color: #e6f0ff;
+  }
+
+  .opcion input[type="radio"] {
+    display: none;
+  }
+
+  .opcion img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .opcion p {
+    margin-top: 5px;
+    font-weight: bold;
+  }
